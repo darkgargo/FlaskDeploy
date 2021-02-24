@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <title>Python Deploy Test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <!-- 네비게이션 바 시작 -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                  aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/">Python Deploy Test</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+  </nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+  <!-- 네비게이션 바 끝 -->
+
+
+
+  <!-- 점보트론 시작 -->
+  <div class="container">
+    <div class="jumbotron">
+      <h1>
+        <span style="color:black">Python WebApp Sta Test</span>
+      </h1>
+      <p>
+        <span style="color:black">Just Test</span>
+      </p>
+    </div>
+  </div>
+  <br>
+  <!-- 점보트론 끝 -->
+
+
+  <!-- 사진전송 필드 시작-->
+  <form action="/uploader" method="post" enctype="multipart/form-data">
+  <div class="container">
+    <div class="form-group">
+      <div id="filesubmit">
+        <input type="file" name="file">
+        <br>
+        <input type="submit">파일 등록</input>
+<!--        <button type="button" id="file_download" class="file_download">파일 다운</button>-->
+    </div>
+  </form>
+    <img ng-src="{{imageUrl}}"/>
+      <br>
+  <!-- 사진전송 필드 끝-->
+
+  <script>
+
+    //세션 체크 함
+
+
+  </script>
+
+</body>
+
+</html>
