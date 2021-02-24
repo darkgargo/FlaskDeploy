@@ -49,8 +49,7 @@ def upload_file():
 
         except Exception as ex:
             print('Exception:')
-            print(ex)
-            return 'fail to upload'
+            return str(ex)
         # f=request.files['file']
         # f.save(f.filename)
         # return 'file upload success'
