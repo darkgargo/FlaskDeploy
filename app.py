@@ -53,7 +53,7 @@ def upload_file():
         # f=request.files['file']
         # f.save(f.filename)
         # return 'file upload success'
-        return 'Good! Upload Success!!!'
+        return 'Good! Upload Success!!'
 
 @app.route('/')
 def hello_world():
